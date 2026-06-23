@@ -1,17 +1,19 @@
-# split keyboard
+# Split Keyboard
 
-split keyboard created in kicad and cad
+Split keyboard created in kicad and cad
 
-## what is this project
+## What is this project
 
-this is a split keyboard keyboard divided into 2 parts.
-i made this to gain experience in pcb design, cad modelling and firmware development.
-it has 22 keys per side, an oled display, and rotary encoder.
+This is a split keyboard. It is divided into 2 parts.
+I designed it to gain some experience in pcb design, cad modeling and firmware development.
+It has 22 keys per side, oled display, and rotary encoder.
 
-## why i made it
+## Why I made it
 
-i wanted to create my own keyboard to get more experience working with hardware project.
-i got a lot of information about schematic creation, pcb routing, footprints, cad case modelling and file structure for github.
+I want to design my own keyboard to gain experience in hardware project.
+I got a lot of useful information about creating schematics, pcb routing, footprints, cad case modeling and file structure on github.
+
+
 
 ## what is inside
 
@@ -22,18 +24,57 @@ i got a lot of information about schematic creation, pcb routing, footprints, ca
 - project images
 - bom csv
 
-## folder structure
+
+## Images
+
+
+### Schematic Left
+
+![](image/schematic-left.png)
+
+### Schematic Right
+
+![](image/schematic-right.png)
+
+### PCB Routing
+
+![](image/pcbRoute.png)
+
+### PCB 3D Front
+
+![](image/pdb3d-front.png)
+
+### PCB 3D Back
+
+![](image/pcb3d-back.png)
+
+### PCB Order
+
+![](image/pcborder.png)
+
+### Keycaps
+
+![](image/keycapsorder.png)
+
+### Cherry MX Switches
+
+![](image/mxcherry.png)
+
+
+### Repository Organization
 
 ```text
-.
+split-keyboard/
+│
 ├── README.md
-├── cad
+├── split-keyboard-bom.csv
+│
+├── cad/
 │   ├── assembled.f3z
 │   ├── assembled.step
 │   └── pcb3d[pcb only].step
-├── firmware
-│   └── main.cpp
-├── grb
+│
+├── grb/
 │   ├── split-keyboard-kicad-B_Cu.gbr
 │   ├── split-keyboard-kicad-B_Mask.gbr
 │   ├── split-keyboard-kicad-B_Paste.gbr
@@ -45,105 +86,9 @@ i got a lot of information about schematic creation, pcb routing, footprints, ca
 │   ├── split-keyboard-kicad-F_Silkscreen.gbr
 │   ├── split-keyboard-kicad-NPTH.drl
 │   ├── split-keyboard-kicad-PTH.drl
-│   └── split-keyboard-kicad-job.gbrjob
-├── grb.zip
-├── image
-│   ├── pcb3d-back.png
-│   ├── pcbRoute.png
-│   ├── pdb3d-front.png
-│   ├── schematic-left.png
-│   └── schematic-right.png
-└── kicad
-    ├── left.kicad_sch
-    ├── right.kicad_sch
-    ├── split-keyboard-kicad.kicad_pcb
-    ├── split-keyboard-kicad.kicad_pro
-    └── split-keyboard-kicad.kicad_sch
-```
+│   └── split-keyboard-kicad-job.gbr
 
 
-## Images
-
-### Schematic Left
-
-![Schematic Left](image/schematic-left.png)
-
-### Schematic Right
-
-![Schematic Right](image/schematic-right.png)
-
-### PCB Routing
-
-![PCB Routing](image/pcbRoute.png)
-
-### PCB 3D Front
-
-![PCB 3D Front](image/pdb3d-front.png)
-
-### PCB 3D Back
-
-![PCB 3D Back](image/pcb3d-back.png)
-
-### PCB Order
-
-![PCB Order](image/pcborder.png)
-
-### Keycaps
-
-![Keycaps](image/keycapsorder.png)
-
-### Cherry MX Switches
-
-![Cherry MX Switches](image/mxcherry.png)
-
-## 3D CAD Model
-
-### Assembled Keyboard
-
-CAD files are available in the `cad/` folder.
-
-* `assembled.f3z`
-* `assembled.step`
-
-### PCB 3D Model
-
-* `pcb3d[pcb only].step`
-
-## Repository Structure
-
-```text
-split-keyboard/
-│
-├── cad/
-│   ├── assembled.f3z
-│   ├── assembled.step
-│   └── pcb3d[pcb only].step
-│
-├── firmware/
-│   └── main.cpp
-│
-├── grb/
-│   └── PCB manufacturing files
-│
-├── image/
-│   └── Project screenshots and renders
-│
-├── kicad/
-│   └── KiCad project files
-│
-├── grb.zip
-├── BOM.csv
-└── README.md
-```
-## Files
-
-* `firmware/` – source code for keyboard firmware
-* `cad/` – 3D CAD models
-* `image/` – screenshots, renders, and reference images
-* `kicad/` – schematics, PCBs, and KiCad project files
-* `grb/` – gerber files for PCB manufacture
-* `grb.zip` – zipped gerber files
-* `BOM.csv` – bill of materials
 
 ## build notes
 
@@ -151,6 +96,7 @@ split-keyboard/
 - i designed the keyboard case in cad
 - i exported gerber files for manufacture
 - i kept the design simple to make it easy to build and code
+
 
 
 ## BOM
@@ -165,13 +111,6 @@ split-keyboard/
 | 1N4148 diodes | key matrix isolation | 44 | $3.00 | https://robu.in/product/diode-1n4148/ | robu |
 
 
-## files
-
-- `kicad/` for all pcb and schematic files
-- `cad/` for the 3d model and case files
-- `grb/` for gerber files
-- `image/` for project pictures
-- `firmware/` for code
 
 ## note
 
