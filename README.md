@@ -90,6 +90,33 @@ split-keyboard/
 
 ```
 
+## Features
+
+* split keyboard design
+* 22 keys on each side
+* oled display
+* 2 rotary encoders
+* custom pcb designed in kicad
+* custom cad case
+* raspberry pi pico controller
+* firmware written in c++
+
+## 3D Model
+
+### Full Keyboard Assembly
+
+![Full Keyboard Assembly](image/assembled-keyboard.png)
+
+this is the complete 3d model of the split keyboard with all major components placed inside the design. the model was created to verify the fit of the pcb, switches, display, rotary encoders, and case before manufacturing.
+
+## Firmware
+
+the firmware files for this project are available in the `split_keyboard_firmware/` folder.
+
+currently the firmware is still being developed and tested. basic project structure, display examples, and source files have already been added to the repository.
+
+
+
 ## build notes
 
 - i used kicad for my schematics and PCB design
