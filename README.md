@@ -107,6 +107,8 @@ split-keyboard/
 
 ![Full Keyboard Assembly](image/assembled-keyboard.png)
 
+IMAGE COMMING SOONN AFTER BUILD...
+
 this is the complete 3d model of the split keyboard with all major components placed inside the design. the model was created to verify the fit of the pcb, switches, display, rotary encoders, and case before manufacturing.
 
 ## Firmware
