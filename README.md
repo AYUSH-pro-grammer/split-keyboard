@@ -88,7 +88,7 @@ split-keyboard/
 │   ├── split-keyboard-kicad-PTH.drl
 │   └── split-keyboard-kicad-job.gbr
 
-
+```
 
 ## build notes
 
