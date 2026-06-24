@@ -48,6 +48,15 @@ I got a lot of useful information about creating schematics, pcb routing, footpr
 
 ![](image/pcb3d-back.png)
 
+### 3D 1
+
+![](image/3d1.png)
+
+### 3D 2
+
+![](image/3d2.png)
+
+
 ### PCB Order
 
 ![](image/pcborder.png)
@@ -60,13 +69,6 @@ I got a lot of useful information about creating schematics, pcb routing, footpr
 
 ![](image/mxcherry.png)
 
-### 3D 1
-
-![](image/3d1.png)
-
-### 3D 2
-
-![](image/3d2.png)
 
 ### Repository Organization
 
